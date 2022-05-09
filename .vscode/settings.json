@@ -1,4 +1,30 @@
 {
-	"editor.formatOnSave": false,
-	"editor.formatOnPaste": true
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"[typescript]": {
+		"editor.formatOnSave": false
+	},
+	"[typescriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"javascript.validate.enabled": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.tslint": true,
+		"source.organizeImports": true
+	},
+	"eslint.alwaysShowStatus": true,
+	"prettier.disableLanguages": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+	"emmet.triggerExpansioOnTab": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	}
 }
