@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "quiz_components",
+  "name": "@momenta/quiz_components",
   "author": "DHN Chandan",
   "module": "dist/quiz_components.esm.js",
   "size-limit": [

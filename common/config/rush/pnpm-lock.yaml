@@ -10,6 +10,7 @@ importers:
       '@babel/core': ^7.17.10
       '@babel/plugin-syntax-flow': ^7.14.5
       '@babel/plugin-transform-react-jsx': ^7.14.9
+      '@momenta/quiz_components': workspace:*
       '@testing-library/dom': 7.21.4
       '@testing-library/jest-dom': ^5.16.4
       '@testing-library/react': ^13.2.0
@@ -22,13 +23,13 @@ importers:
       '@typescript-eslint/parser': ^5.22.0
       eslint: ^8.15.0
       eslint-plugin-react: ^7.29.4
-      quiz_components: workspace:*
       react: ^18.1.0
       react-dom: ^18.1.0
       react-scripts: 5.0.1
       typescript: ^4.6.4
       web-vitals: ^2.1.4
     dependencies:
+      '@momenta/quiz_components': link:../../libraries/quiz_components
       '@testing-library/dom': 7.21.4
       '@testing-library/jest-dom': 5.16.4
       '@testing-library/react': 13.2.0_ef5jwxihqo6n7gxfmzogljlgcm
@@ -37,7 +38,6 @@ importers:
       '@types/node': 17.0.31
       '@types/react': 18.0.9
       '@types/react-dom': 18.0.3
-      quiz_components: link:../../libraries/quiz_components
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
       react-scripts: 5.0.1_yo44apyfppz34s3hgzapanbtsa

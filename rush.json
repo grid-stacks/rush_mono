@@ -27,7 +27,6 @@
 	"pnpmVersion": "7.0.1",
 	// "npmVersion": "6.14.15",
 	// "yarnVersion": "1.9.4",
-
 	/**
 	 * Options that are only used when the PNPM package manager is selected
 	 */
@@ -48,7 +47,6 @@
 		 * The default value is "local".
 		 */
 		// "pnpmStore": "local",
-
 		/**
 		 * If true, then Rush will add the "--strict-peer-dependencies" option when invoking PNPM.
 		 * This causes "rush install" to fail if there are unsatisfied peer dependencies, which is
@@ -60,7 +58,6 @@
 		 * It is strongly recommended to set strictPeerDependencies=true.
 		 */
 		// "strictPeerDependencies": true,
-
 		/**
 		 * Configures the strategy used to select versions during installation.
 		 *
@@ -74,7 +71,6 @@
 		 * will recalculate all version selections.
 		 */
 		// "resolutionStrategy": "fast",
-
 		/**
 		 * If true, then `rush install` will report an error if manual modifications
 		 * were made to the PNPM shrinkwrap file without running "rush update" afterwards.
@@ -92,7 +88,6 @@
 		 * The default value is false.
 		 */
 		// "preventManualShrinkwrapChanges": true,
-
 		/**
 		 * If true, then `rush install` will use the PNPM workspaces feature to perform the
 		 * install.
@@ -133,7 +128,6 @@
 	 * to disable Rush's warning.
 	 */
 	// "suppressNodeLtsWarning": false,
-
 	/**
 	 * If you would like the version specifiers for your dependencies to be consistent, then
 	 * uncomment this line. This is effectively similar to running "rush check" before any
@@ -146,7 +140,6 @@
 	 * section of the common-versions.json.
 	 */
 	// "ensureConsistentVersions": true,
-
 	/**
 	 * Large monorepos can become intimidating for newcomers if project folder paths don't follow
 	 * a consistent and recognizable pattern.  When the system allows nested folder trees,
@@ -172,7 +165,6 @@
 	 */
 	// "projectFolderMinDepth": 2,
 	// "projectFolderMaxDepth": 2,
-
 	/**
 	 * Today the npmjs.com registry enforces fairly strict naming rules for packages, but in the early
 	 * days there was no standard and hardly any enforcement.  A few large legacy projects are still using
@@ -185,7 +177,6 @@
 	 * The default value is false.
 	 */
 	// "allowMostlyStandardPackageNames": true,
-
 	/**
 	 * This feature helps you to review and approve new packages before they are introduced
 	 * to your monorepo.  For example, you may be concerned about licensing, code quality,
@@ -221,7 +212,6 @@
 	//    */
 	//   // "ignoredNpmScopes": ["@types"]
 	// },
-
 	/**
 	 * If you use Git as your version control system, this section has some additional
 	 * optional features you can use.
@@ -355,21 +345,18 @@
 	 * in the "eventHooks" section.
 	 */
 	// "telemetryEnabled": false,
-
 	/**
 	 * Allows creation of hotfix changes. This feature is experimental so it is disabled by default.
 	 * If this is set, 'rush change' only allows a 'hotfix' change type to be specified. This change type
 	 * will be used when publishing subsequent changes from the monorepo.
 	 */
 	// "hotfixChangeEnabled": false,
-
 	/**
 	 * This is an optional, but recommended, list of available tags that can be applied
 	 * to projects. If this property is not specified, any tag is allowed. This
 	 * list is useful in preventing typos when specifying tags for projects.
 	 */
 	// "allowedProjectTags": [ "apps", "Web", "tools" ],
-
 	/**
 	 * (Required) This is the inventory of projects to be managed by Rush.
 	 *
@@ -450,7 +437,6 @@
 		//   "tags": ["libraries", "web"]
 		// },
 		//
-
 		{
 			"packageName": "quiz_admin",
 			"projectFolder": "frontend/quiz_admin",
@@ -458,7 +444,7 @@
 			"tags": ["web"]
 		},
 		{
-			"packageName": "quiz_components",
+			"packageName": "@momenta/quiz_components",
 			"projectFolder": "libraries/quiz_components",
 			"reviewCategory": "internal",
 			"tags": ["web"]

@@ -1,5 +1,5 @@
+import { Thing } from "@momenta/quiz_components";
 import React from "react";
-import { Thing } from "quiz_components";
 
 function App() {
 	return (
